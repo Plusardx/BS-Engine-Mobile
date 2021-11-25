@@ -1,3 +1,9 @@
+É... Oi... Entao... eu nao sei o que escrever aqui, sou químico e nao um escriba ou programador, mas enfim, recomendo que caso queira compilar este mod, alem de obviamente seguir o tutorial abaixo, que tambem execute o comando 
+`haxelib install extension_webview`
+sabe como é né? cutscenes lisinhas para mobile. é isso eu acho, tmj!
+
+Tem a linc luajit tambem mas isso vai mudar, SDL Error eu te odeio! Agora siga o tutorial : D
+
 # Friday Night Funkin' - Psych Engine
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
