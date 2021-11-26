@@ -1,5 +1,5 @@
 É... Oi... Entao... eu nao sei o que escrever aqui, sou químico e nao um escriba ou programador, mas enfim, recomendo que caso queira compilar este mod, alem de obviamente seguir o tutorial abaixo, que tambem execute o comando 
-`haxelib install extension_webview`
+`haxelib install extension-webview`
 sabe como é né? cutscenes lisinhas para mobile. é isso eu acho, tmj!
 
 Tem a linc luajit tambem mas isso vai mudar, SDL Error eu te odeio! Agora siga o tutorial : D
