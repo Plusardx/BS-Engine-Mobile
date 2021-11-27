@@ -23,6 +23,8 @@ class CreditsState extends MusicBeatState
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+        ['Android Port'],
+        ['Plusardx',		'plusardx',		'The guy who ported this mod',					'https://youtube.com/channel/UC79hR4wLFO1fORZPaKY1XAw ',	'0xFFFFFFFF'],             
 	['BS Engine Mobile'],
 	['Matheus Silver',		'silver',		'Coder/Diretor do projeto',					'https://www.youtube.com/c/matheussilver',	'0xFFFFFFFF'],
 	['Bright Zirimund',		'bright',		'Otimizaçao/Adaptaçao Artistica',				'https://www.youtube.com/c/matheussilver',		'0xFFC30085'],
