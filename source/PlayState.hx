@@ -927,6 +927,14 @@ class PlayState extends MusicBeatState
 		iconP2.visible = !ClientPrefs.hideHud;
 		add(iconP2);
 		reloadHealthBarColors();
+		
+		 #if mobileC
+        watermark = new FlxText(0, (ClientPrefs.downScroll ? 10 : 700), "PORT BY PLUSARDX", 20);
+        watermark.scrollFactor.set();
+        watermark.setFormat("assets/fonts/vcr.ttf", 20, FlxColor.WHITE, LEFT, OUTLINE, FlxColor.BLACK);
+        watermark.borderSize = 1.25;
+        this.add(watermark);
+        #end
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
